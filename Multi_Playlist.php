@@ -45,7 +45,6 @@ RXVyb2RhbmNlIDkwCmh0dHBzOi8vc3RyZWFtLWV1cm9kYW5jZTkwLmZyL3JhZGlvLzgwMDAvMTI4Lm1w
 [GET PLAYLIST]
 ?url= + [ENCODED PLAYLIST STRING]
 */
-error_reporting(0);
 
 error_reporting(0);
 date_default_timezone_set("Europe/Tirane");
