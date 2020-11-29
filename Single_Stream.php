@@ -54,12 +54,12 @@ ob_start();
 
     if(empty($_GET["url"])) {
     exit( json_encode(array(
-	"App" => "Base64 Stream String Decoder",
-	"Version" => "1.0",
-	"Mode" => "Single Stream",
+    "App" => "Base64 Stream String Decoder",
+    "Version" => "1.0",
+    "Mode" => "Single Stream",
     "Message" => "Base64 Encoded String Parameter Required",
     "Parameters" => "?url=YOUR BASE64 ENCODED STRING",
-	"Example" => "{$ROOT_URL}?url=aHR0cHM6Ly9zdHJlYW0tZXVyb2RhbmNlOTAuZnIvcmFkaW8vODAwMC8xMjgubXAz",
+    "Example" => "{$ROOT_URL}?url=aHR0cHM6Ly9zdHJlYW0tZXVyb2RhbmNlOTAuZnIvcmFkaW8vODAwMC8xMjgubXAz",
     "PHP Code Generated From Host" => "demo.kodi.al",
     "PHP Code Generated Date" => "Saturday, November 28, 2020 - 23:05:18"
     )));
