@@ -63,9 +63,9 @@ ob_start();
 
     if(empty($_GET["url"])) {
     exit(json_encode(array(
-	"App" => "Base64 Stream String Decoder",
-	"Version" => "1.0",
-	"Mode" => "Multi Stream",
+    "App" => "Base64 Stream String Decoder",
+    "Version" => "1.0",
+    "Mode" => "Multi Stream",
     "Message" => "Base64 Encoded String Parameter Required",
     "Parameters" => "?url=YOUR BASE64 ENCODED STRING",
     "Example" => "{$ROOT_URL}?url=RXVyb2RhbmNlIDkwCmh0dHBzOi8vc3RyZWFtLWV1cm9kYW5jZTkwLmZyL3JhZGlvLzgwMDAvMTI4Lm1wMwpEYW5jZSBXYXZlCmh0dHA6Ly9zdHJlYW0uZGFuY2V3YXZlLm9ubGluZTo4MDgwL2RhbmNlLm1wMwpNYXN0ZXJzIG9mIEhhcmRjb3JlIFBvZGNhc3QgMjEyIGJ5IEJyb2tlbiBNaW5kcwpodHRwczovL3RyYWZmaWMubGlic3luLmNvbS9zZWN1cmUvbWFzdGVyc29maGFyZGNvcmUvcG9kY2FzdF8yMTJfQ0hBUFRFUlMubXAzCk1lbG9kaWEgRk0gRGlzY28KaHR0cDovL21lbG9kaWEuaXBmbS5uZXQvTWVsb2RpYUZNX0Rpc2NvX0hE",
